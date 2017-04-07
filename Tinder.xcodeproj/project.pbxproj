@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		268956691E96F6A10025CD7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268956681E96F6A10025CD7A /* AppDelegate.swift */; };
-		2689566B1E96F6A10025CD7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689566A1E96F6A10025CD7A /* ViewController.swift */; };
 		2689566E1E96F6A10025CD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2689566C1E96F6A10025CD7A /* Main.storyboard */; };
 		268956711E96F6A10025CD7A /* Tinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2689566F1E96F6A10025CD7A /* Tinder.xcdatamodeld */; };
 		268956731E96F6A10025CD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268956721E96F6A10025CD7A /* Assets.xcassets */; };
 		268956761E96F6A10025CD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268956741E96F6A10025CD7A /* LaunchScreen.storyboard */; };
+		268956801E96FB030025CD7A /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689567F1E96FB030025CD7A /* CardsViewController.swift */; };
+		268956821E973A3C0025CD7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268956811E973A3C0025CD7A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		268956651E96F6A10025CD7A /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268956681E96F6A10025CD7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2689566A1E96F6A10025CD7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2689566D1E96F6A10025CD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268956701E96F6A10025CD7A /* Tinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinder.xcdatamodel; sourceTree = "<group>"; };
 		268956721E96F6A10025CD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268956751E96F6A10025CD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268956771E96F6A10025CD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2689567F1E96FB030025CD7A /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		268956811E973A3C0025CD7A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				268956681E96F6A10025CD7A /* AppDelegate.swift */,
-				2689566A1E96F6A10025CD7A /* ViewController.swift */,
 				2689566C1E96F6A10025CD7A /* Main.storyboard */,
 				268956721E96F6A10025CD7A /* Assets.xcassets */,
 				268956741E96F6A10025CD7A /* LaunchScreen.storyboard */,
 				268956771E96F6A10025CD7A /* Info.plist */,
 				2689566F1E96F6A10025CD7A /* Tinder.xcdatamodeld */,
+				2689567F1E96FB030025CD7A /* CardsViewController.swift */,
+				268956811E973A3C0025CD7A /* ProfileViewController.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2689566B1E96F6A10025CD7A /* ViewController.swift in Sources */,
 				268956691E96F6A10025CD7A /* AppDelegate.swift in Sources */,
 				268956711E96F6A10025CD7A /* Tinder.xcdatamodeld in Sources */,
+				268956821E973A3C0025CD7A /* ProfileViewController.swift in Sources */,
+				268956801E96FB030025CD7A /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				2689567C1E96F6A10025CD7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
